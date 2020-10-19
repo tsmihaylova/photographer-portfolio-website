@@ -1,0 +1,272 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+.font-special {
+  font-family: 'Tangerine', cursive;
+}
+.yellow-text {
+  color: #f4d233;
+}
+.dark-text {
+  color: #1B3D2F;
+}
+.light-text {
+  color: #aaa69e;
+}
+.dark-bg {
+  background: #1B3D2F;
+}
+.main-btn:hover {
+  background: #1B3D2F !important;
+}
+
+/* Title */
+.title {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+  color: #1B3D2F;
+}
+.title-underline {
+  height: 3px;
+  width: 250px;
+  background: #f4d233;
+  margin: -15px auto 0 auto;
+}
+
+/* Nav */
+#navbar {
+  transition: top 0.3s ease-in-out;
+}
+#navbar .nav-link:hover {
+  color: #f4d233;
+  transition: color 0.3s ease;
+}
+.my_navbar {
+  background:  rgba(9, 22, 17, 0.9);
+}
+
+/* Hero Area */
+.carousel-item-1 {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/hero-1_jakob-owens-f3s0i96CRGQ-unsplash.jpg) center/cover no-repeat;
+  min-height: 100vh;
+}
+.carousel-item-2 {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/hero-2_simon-berger-twukN12EN7c-unsplash.jpg) center/cover no-repeat;
+  min-height: 100vh;
+}
+.carousel-item-3 {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/hero-3_tim-tiedemann-DmVDrTLFHBw-unsplash.jpg) center/cover no-repeat;
+  min-height: 100vh;
+}
+.carousel-caption {
+  bottom: 27%;
+}
+
+/* Services */
+.service-icon {
+  color: #f4d233;
+}
+
+/* Banners */
+#banner-1 {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/img/banner-1_pexels-taryn-elliott-4752603.jpg) bottom/cover no-repeat fixed;
+  min-height: 350px;
+}
+#banner-2 {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/img/banner-2_javier-esteban-eeaZwCUqYuM-unsplash.jpg) bottom/cover no-repeat fixed;
+  min-height: 350px;
+}
+#banner-2 h3 {
+  word-spacing: 1rem;
+}
+
+/* About us */
+#about {
+  background: #f5f2eb;
+}
+
+/* Blog */
+#blog .img-container {
+  overflow: hidden;
+}
+.blog-link {
+  background: #f4d233;
+  width: 100px;
+  height: 2px;
+  opacity: 0;
+}
+#blog .img-container:hover img {
+  transform: scale(1.1);
+  opacity: 0.7;
+  transition: all 0.6s ease-in-out;
+}
+#blog .img-container:hover ~ .blog-link {
+  opacity: 1 !important;
+  transition: all 0.6s ease-in-out !important;
+}
+
+/* Subscribe */
+#subscribe {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/img/subscribe_andrew-knechel-gG6yehL64fo-unsplash.jpg) bottom/cover no-repeat fixed;
+  min-height: 350px;
+}
+
+/* Testimonials */
+.testimonial-1 {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/img/testimonials-1_photos-by-lanty-rfS6oq6MWlU-unsplash.jpg) center/cover no-repeat;
+  min-height: 400px;
+}
+.testimonial-2 {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/img/testimonials-2_henry-be-IicyiaPYGGI-unsplash.jpg) center/cover no-repeat;
+  min-height: 400px;
+}
+.testimonial-3 {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/img/testimonials-3_beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg) center/cover no-repeat;
+  min-height: 400px;
+}
+.testimonial-4 {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/img/testimonials-4_mark-basarab-1OtUkD_8svc-unsplash.jpg) center/cover no-repeat;
+  min-height: 400px;
+}
+
+/* Instagram/Social */
+#instagram {
+  background: #f5f2eb;
+}
+#instagram img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Footer */
+#footer {
+  background:#1B3D2F;
+  position: relative;
+}
+.footer-icon:hover {
+  transition: all 0.4s ease-in-out;
+  color:#f5f2eb;
+}
+.footer-link:hover {
+  text-decoration: none;
+}
+.footer-link:hover p {
+  color: #f4d233 !important;
+  transition: all 0.4s ease-in-out;
+}
+#back-top-top {
+  background:#1B3D2F;
+  border-radius: 50%;
+  position: absolute;
+  top: -12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#services-page, 
+#gallery-page, 
+#blog-page,
+#about-page,
+#contact-page,
+#faq-page {
+  margin-top: 110px;
+}
+
+/* Services Page */
+.services-link {
+  color: #f4d233;
+}
+.services-link:hover {
+  transition: all 0.4s ease;
+  color: #f4d233;
+}
+
+/* Gallery Page */
+.grid-item { 
+  width: 280px; 
+}
+.gallery-button:focus {
+  outline: 4px #f4d233 solid !important;
+  outline-width: 3px !important;
+  border-radius: 0;
+}
+
+/* Blog Page */
+#blog-page .popular-posts a:hover {
+  text-decoration-color: #f4d233;
+}
+#blog-page .popular-posts_title:hover {
+  color: #f4d233;
+  text-decoration: none !important;
+}
+#blog-page .img-container:hover ~ .blog-link {
+  opacity: 1 !important;
+  transition: all 0.4s ease-in-out !important;
+}
+.img-article {
+  max-width: 250px;
+}
+.column-links {
+  border-left: 1px #f5f2eb solid;
+}
+hr {
+  border-color: #f5f2eb;
+}
+
+/* Contact Page */
+.contact {
+  background: #f5f2eb;
+}
+
+/* FAQ Page */
+#faq-page .btn-link{
+  text-decoration: none;
+}
+#faq-page .btn-link:focus {
+  box-shadow: none !important;
+}
+
+
+@media (max-width: 828px) {
+  #banner-1 h3,
+  #banner-2 h3 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  #media {
+    display: none;
+  }
+  
+  .title {
+    font-size: 4rem;
+  }
+
+  .testimonial-1, 
+  .testimonial-2,
+  .testimonial-3,
+  .testimonial-4 {
+    min-height: 80vh;
+  }
+
+  #back-top-top {
+    display: none;
+  }
+
+  .footer-icons {
+    order: 1;
+  }
+
+  .services-page {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 525px) {
+  #carouselHero h1 {
+    font-size: 3rem;
+  }
+}
+
