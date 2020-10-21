@@ -51,8 +51,8 @@
         </div>
       </div>
 
-      <div class="row flex-wrap">
-        <div class="button-group filter-button-group p-2 ">
+      <div class="row flex-wrap justify-content-center">
+        <div class="button-group filter-button-group  px-3">
           <button type="button" class="btn dark-text text-uppercase mr-3 gallery-button" data-filter="*">all</button>
           <button type="button" class="btn dark-text text-uppercase mr-3 gallery-button" data-filter=".weddings">weddings</button>
           <button type="button" class="btn dark-text text-uppercase mr-3 gallery-button" data-filter=".maternity">maternity</button>
@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <div class="row py-2 grid">
+      <div class="row py-2 grid pl-3 justify-content-center">
           <div class="element-item grid-item weddings">
             <img src="img/gallery/1-pexels-francesca-zama-5373737.jpg" alt="image" class="img-fluid p-2">
           </div>
@@ -148,7 +148,6 @@
           <div class="element-item grid-item adventures">
             <img src="img/gallery/27-pexels-miles-hardacre-2404370.jpg" alt="image" class="img-fluid p-2">
           </div>
-          <!-- remove: ? -->
           <div class="element-item grid-item elopements">
             <img src="img/gallery/28-pexels-taryn-elliott-5271532.jpg" alt="image" class="img-fluid p-2">
           </div>
@@ -182,7 +181,6 @@
           <div class="element-item grid-item events">
             <img src="img/gallery/50-pexels-pixabay-37862.jpg" alt="image" class="img-fluid p-2">
           </div>
-          
           <div class="element-item grid-item creative">
             <img src="img/gallery/37-pexels-daria-rem-1977055.jpg" alt="image" class="img-fluid p-2">
           </div>
@@ -207,7 +205,6 @@
           <div class="element-item grid-item events">
             <img src="img/gallery/47-pexels-cottonbro-3419697.jpg" alt="image" class="img-fluid p-2">
           </div>
-          
           <div class="element-item grid-item events">
             <img src="img/gallery/49-pexels-marcin-dampc-1684187.jpg" alt="image" class="img-fluid p-2">
           </div>
@@ -223,13 +220,8 @@
           <div class="element-item grid-item elopements">
             <img src="img/gallery/56-pexels-lola-russian-2704048.jpg" alt="image" class="img-fluid p-2">
           </div>
-          
-          
         </div>
-
       </div>
-
-
 
       <footer id="footer" class="mt-5">
         <div class="container">
@@ -297,14 +289,13 @@
         $('#back-to-top').removeClass('scrollTop');
       }
     })
-
       
      // init Isotope
       var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
-      masonry: {
-        columnWidth: 280
-      }
+        masonry: {
+          columnWidth: 280,
+        }
       });
       // filter items on button click
       $('.filter-button-group').on( 'click', 'button', function() {
